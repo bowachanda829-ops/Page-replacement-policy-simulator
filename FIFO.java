@@ -3,7 +3,7 @@ import java.util.*;
 public class FIFO{
 	public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter page reference string: ");
+        System.out.print("Enter page reference string(0-9): ");
         String input = scanner.nextLine();
         System.out.print("Enter number of frames: ");
         int frameCount = scanner.nextInt();
